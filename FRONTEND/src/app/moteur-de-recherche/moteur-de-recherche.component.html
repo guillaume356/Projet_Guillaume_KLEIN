@@ -1,0 +1,6 @@
+<form [formGroup]="searchForm" (ngSubmit)="onSearch()">
+    <input formControlName="name" placeholder="Nom du produit">
+    <input formControlName="brand" placeholder="Marque">
+    <button type="submit">Rechercher</button>
+  </form>
+  
